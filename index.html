@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+<link rel="stylesheet" href="./style.css">
+
+    <title>Weather App</title>
 </head>
-<body>
-    <h1>Weather App</h1>
-    Enter city name 
+<body class="body">
+    <div class="dir">
+        <h1 class="h1">Weather App</h1>
 
-    <form onsubmit="getWeather(); return false;"">
-    <input type="text" id="cityName">
-    <button type="submit">Get Weather</button>
-    </form>
+        <h2 >Enter Cuntry Or City Name </h2>
 
-    <div id="weather"> </div>
+        <form onsubmit="getWeather(); return false;">
+            <input class="glassmorphism1" type="text" id="cityName">
+
+
+            
+            <button type="submit" class="glassmorphism"><h5 class="h5">Get Weather</h5></button>
+        </form>
+
+        <div id="weather"></div>
+    </div>
+    
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="app.mjs"></script>
 </body>
