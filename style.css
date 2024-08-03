@@ -23,9 +23,9 @@ body {
         }
 
         .dir {
-            background-color: blue;
+            background-color: rgb(150, 150, 217);
             border-radius: 10%;
-            border: 2px solid rgb(189, 66, 66);
+            border: 2px solid rgb(163, 230, 141);
             width: 60%;
             height: 60%;
             padding: 20px;
@@ -65,4 +65,14 @@ border: 1px solid rgba(60, 142, 217, 0.27);
             border: 1px solid rgba(255, 255, 255, 0.3);
             padding: 10px;
             width: 50%;
+        }
+        #weather{
+            border-radius: 10%;
+            border: 2px solid rgb(118, 166, 220);
+            width: auto;
+            height: auto;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(138, 43, 226, 0.5); /* Semi-transparent blueviolet */
+            backdrop-filter: blur(10px); /* Blur effect */
         }
