@@ -1,7 +1,7 @@
 let getWeather = () => {
     let cityName = document.getElementById("cityName").value;
    // Make a request for a user with a given ID
-   let url = `https://api.openweathermap.org/data/2.5/weather?units=metric&appid=752000152e9b5eb2f5e0b8162973cb40&q=${cityName}`
+   let url = `https://api.openweathermap.org/data/2.5/weather?units=metric&appid=API_KEY&q=${cityName}`
 axios.get(url)
 .then(function (response) {
   // handle success
